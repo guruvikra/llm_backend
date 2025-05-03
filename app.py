@@ -78,10 +78,10 @@ async def main():
         )
 
         async for event in events:
-    # Log the entire event to inspect the structure if needed
-    # print(f"Event: {event}")
+        # Log the entire event to inspect the structure if needed
+        # print(f"Event: {event}")
 
-    # Check if the event is a tuple
+        # Check if the event is a tuple
             if isinstance(event, tuple):
                 # Extract the first element, which is the actual message
                 msg = event[0]
